@@ -6,3 +6,9 @@ const commonElements = (array1, array2) => {
   return filter;
 };
 console.log("মিল থাকা উপাদান:", commonElements(arr1, arr2));
+
+const sumOfArray = (array) => {
+  return array.reduce((a, b) => a + b, 0);
+};
+
+console.log(sumOfArray(arr1));
