@@ -8,3 +8,8 @@ const reverseEachWord = (string) => {
     .join(" ");
 };
 console.log(reverseEachWord(sentence));
+
+const reverseWords =(string)=>{
+    return string.toLowerCase().split(" ").reverse().join(" ")
+}
+console.log(reverseWords(sentence));
